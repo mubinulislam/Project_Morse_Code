@@ -55,6 +55,7 @@ int main(){
                     }
                 }
             }
+            cout<<"Encoded to Morse: ";
             for (const auto& str : morse_code) {
             cout << str;
             }
@@ -101,6 +102,7 @@ int main(){
                     continue;
                 }
             }
+            cout<<"Decoded from Morse: ";
             for (const auto& str : myStrings) {
                 cout << str;
             }
